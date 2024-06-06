@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASSIT</title>
+    <link rel="stylesheet" href="../css/page1.css">
+</head>
+<body onload="changeLanguage()">
+    <header>
+        <div class="language-select">
+            <div class="custom-select" onclick="openLanguageModal()">
+                <div id="selectedLanguage">🌐Choose your language</div>
+                <div class="select-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeLanguageModal()">&times;</span>
+                    <h3>Select a Language</h3>
+                    <select id="allLanguagesSelect">
+                        <option value="fr">🇫🇷 Français (France)</option>
+                        <option value="en">🇬🇧 English</option>
+                        <option value="ar">🇸🇦 العربية</option>
+                        <!-- Add more languages as needed -->
+                    </select>
+                    <button id="selectButton" onclick="selectLanguage()">Select</button>
+                </div>
+            </div>
+        </div>
+    
+    <main>
+        <div class="container">
+            <section class="bienvenue">
+                <h2>
+                    <span>Where you can</span><br>
+                    <span>communicate with all</span><br>
+                    <span class="highlight">your study mates</span>
+                </h2>
+                <p>Our application is the best place you can find </p>
+                <p>to communicate with your teachers and your classmates.</p>
+                <div class="button-container">
+                    <button class="logButton" onclick="redirectToPage('page2.html')">LOGIN</button> 
+                    <button class="signButton" onclick="redirectToPage('page3.html')">SIGNUP</button> 
+                </div>
+            </section> 
+        </div>
+        
+        
+        
+    </main>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+    
+    <script>
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+         
+        
+        function changeLanguage() {
+            var select = document.getElementById("allLanguagesSelect");
+            var selectedValue = select.value;
+
+            if (selectedValue === "other") {
+                var modal = document.getElementById("modal");
+                modal.style.display = "block";
+            } else {
+                document.getElementById("selectedLanguage").innerText = select.options[select.selectedIndex].text;
+            }
+        }
+
+        function selectLanguage() {
+            var select = document.getElementById("allLanguagesSelect");
+            var selectedText = select.options[select.selectedIndex].text;
+            document.getElementById("selectedLanguage").innerText = selectedText;
+            closeModal();
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("modal");
+            modal.style.display = "none";
+        }
+
+        function openLanguageModal() {
+            document.getElementById('modal').style.display = 'block';
+        }
+
+        function closeLanguageModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

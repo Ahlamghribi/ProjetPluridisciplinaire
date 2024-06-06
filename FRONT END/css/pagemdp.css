@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: moveBackground 7s linear infinite; /* Apply the animation */
+    position: relative;
+     
+    background-size: 2000px; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    color: #333; /* Text color */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+    margin: 0; /* Remove default body margin */
+     min-height: 100vh;
+    animation: moveBackground 7s linear infinite; /* Apply the animation */
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header h3 {
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.svt {
+    background-color: #408C75;
+    color: white;
+    margin-right: 10px;
+}
+
+.ignorer {
+    background-color: #ddd;
+    color: #333;
+}

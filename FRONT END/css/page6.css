@@ -1,0 +1,85 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3;
+}
+h1{ color: #222;
+    font-size: 3em;
+    margin-top: 0;
+    text-align: center;
+    color:#408C75;
+
+    
+}
+button.ignorer {
+    margin: 0 auto;
+    padding: 1em 1em;
+    border: none;
+    cursor: pointer;
+    background-color: #fff; /* couleur de fond */
+    color: black; /* couleur du texte */
+    border-radius: 20px; /* arrondir les coins */
+    font-size: 1.2em; /* taille de la police */
+    width: 350px; /* largeur du bouton */
+    height: 50px; /* hauteur du bouton */
+    box-shadow: 0 0 10px rgba(64, 140, 117, 0.5); /* Ombre avec une couleur similaire */
+    
+   
+}
+button.ajouter{
+    margin: 0 auto;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    background-color: #408C75;
+    color: #fff; /* couleur du texte */
+    border-radius: 20px; /* arrondir les coins */
+    font-size: 1.2em; /* taille de la police */
+    width: 350px; /* largeur du bouton */
+    height: 50px; /* hauteur du bouton */
+    box-shadow: 0 0 10px rgba(64, 140, 117, 0.5); /* Ombre avec une couleur similaire */
+
+   
+}
+img.existing-photo {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Position absolue par rapport au parent */
+    top: 50%; /* Déplace l'image à 50% du haut de son parent */
+    left: 30%; /* Déplace l'image à 30% de la gauche de son parent */
+    transform: translate(-50%, -50%); /* Translate l'image de moitié de sa propre taille en arrière */
+    box-shadow: 0 0 60px rgba(64, 140, 117, 0.5); /* Ombre avec une couleur similaire */
+}
+img.ad-photo {
+    width: 500px;
+    height: 400px; /* Garder l'aspect ratio */
+    position: absolute; /* Position absolue par rapport au parent */
+    top: 50%; /* Déplacer l'image à 50% du haut de son parent */
+    left: 70%; /* Déplacer l'image à 50% de la gauche de son parent */
+    transform: translate(-50%, -50%); /* Translate l'image de moitié de sa propre taille en arrière */
+   
+    margin-left: 50px; /* Ajouter un espace entre les deux images */
+    border-radius: 0; /* Retirer la forme de cercle */
+}
+p{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+button.ignorer {
+    position: absolute;
+    bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
+    left: 50%; /* Centre le bouton horizontalement */
+    transform: translateX(-50%); /* Déplace le bouton de moitié de sa propre largeur vers la gauche */
+    
+}
+
+button.ajouter {
+    position: absolute;
+    bottom: 60px; /* Positionne le bouton à 60px au-dessus du bouton "Ignorer" */
+    left: 50%; /* Centre le bouton horizontalement */
+    transform: translateX(-50%); /* Déplace le bouton de moitié de sa propre largeur vers la gauche */
+  margin-bottom: 20px;
+}

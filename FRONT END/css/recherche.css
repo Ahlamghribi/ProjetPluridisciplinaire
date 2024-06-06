@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Search box container */
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Search input */
+.search-txt {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out;
+}
+
+.search-txt:focus {
+    width: 400px; /* Adjust focus width as needed */
+    border-color: #408C75;
+}
+
+/* Search button */
+.search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #408C75;
+    color: white;
+    border: 1px solid #408C75;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #366653;
+}
+
+/* Search icon */
+.search-btn i {
+    font-size: 16px;
+}
+
+/* Search results container */
+.search-results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual result item */
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item h4 {
+    margin-bottom: 5px;
+    color: #408C75;
+}
+
+.result-item p {
+    margin-bottom: 0;
+    color: #333;
+}
+/* CSS for search results */
+.search-results {
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    color: #408C75;
+    margin-bottom: 5px;
+}
+
+.result p {
+    color: #333333;
+    margin-bottom: 0;
+}

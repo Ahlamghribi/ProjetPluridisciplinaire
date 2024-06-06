@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Connexion</title>
+    <link rel="stylesheet" href="../css/page2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <header> 
+        <section class="t2">
+            <h2>Welcome aboard!<strong class="welcome"></strong></h2>
+            <h3><span class="journey">Embark on an exciting journey with us</span></h3>
+        </section>
+    </header>
+    
+    <main class="content">
+        <div class="main">
+            <div id="main" class="formulaire-connexion">
+                <form action="#">
+                    <div class="input-container">
+                        <label for="email"><img src="../img/username.jpg" alt="Username icon"></label>
+                        <input type="text" id="email" name="email" placeholder="Username or Email Address" required>
+                    </div>
+                    <div id="mot_de_passe_container" class="input-container">
+                        <label for="password"><img src="../img/password.png" alt="Password icon"></label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <button id="togglePassword" type="button">
+                            <i id="toggleIcon" class="far fa-eye-slash"></i>
+                        </button>
+                    </div>
+                    <div class="keep-logged-in">
+                        <input type="checkbox" id="keepLoggedIn" name="keepLoggedIn">
+                        <label for="keepLoggedIn">Keep me logged in</label>
+                    </div>
+                    <button class="login-button" type="submit">Login</button>
+                    <a class="mdpo" href="../html/page-mot-de-passe-oblie.html">Forgot your password ?</a>
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+    
+    <script>
+    
+    const passwordInput = document.getElementById('password');
+const passwordToggle = document.getElementById('togglePassword');
+const toggleIcon = document.getElementById('toggleIcon');
+
+passwordToggle.addEventListener('click', function() {
+    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwordInput.setAttribute('type', type);
+
+    if (type === 'password') {
+        toggleIcon.classList.remove('fa-eye');
+        toggleIcon.classList.add('fa-eye-slash');
+    } else {
+        toggleIcon.classList.remove('fa-eye-slash');
+        toggleIcon.classList.add('fa-eye');
+    }
+});
+
+        
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sélection du bouton "Login"
+            const loginButton = document.querySelector('.login-button');
+
+            // Ajout d'un écouteur d'événement sur le clic du bouton "Login"
+            loginButton.addEventListener('click', function() {
+                // Récupération des valeurs du code et du nouveau mot de passe
+                const code = document.querySelector('input[name="email"]').value;
+                const newPassword = document.querySelector('input[name="password"]').value;
+
+                // Vérification si le code et le mot de passe sont remplis
+                if (code.trim() === '' || newPassword.trim() === '') {
+                    alert('Please fill in all fields.'); // Message d'erreur si un champ est vide
+                    return; // Arrête l'exécution du code restant
+                }
+
+                // Vérification de la longueur du mot de passe
+                if (newPassword.length < 6) {
+                    alert('Password must be at least 6 characters long.'); // Message d'erreur si le mot de passe est trop court
+                    return; // Arrête l'exécution du code restant
+                }
+
+                // Vous pouvez ajouter ici la logique pour vérifier le code et le mot de passe dans la base de données
+
+                // Redirection vers la page index.html si tout est rempli correctement
+                window.location.href = '../html/main.html';
+            });
+        });
+    </script>
+</body>
+</html>

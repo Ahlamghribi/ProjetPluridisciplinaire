@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveau compte</title>
+    <link rel="stylesheet" href="../css/page3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="left-content">
+                <h1>Join the</h1>
+                <h2>Journey!</h2>
+                <p>Welcome! Register Now and Connect With your classmates and your teachers .</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="form-container">
+                <main class="content">
+                    <form id="signupForm">
+                        <label for="nom/prenom"><h3>What is your name?</h3></label>
+                        <div id="nom-prenom">
+                            <input type="text" name="nom" placeholder="Name" required>
+                            <input type="text" name="prenom" placeholder="First name">
+                        </div>
+                        <div id="date-naissance">
+                            <h3><label for="date-naissance">What's your birthday?</label></h3>
+                            <input type="date" id="date-naissance" placeholder="JJ/MM/AAAA">
+                        </div>
+                        <div id="genre">
+                            <h3>What is your gender?</h3>
+                            <div>
+                                <input type="radio" id="homme" name="genre" value="homme">
+                                <label for="homme">Man</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="femme" name="genre" value="femme">
+                                <label for="femme">Woman</label>
+                            </div>
+                        </div>
+                        <div id="role">
+                            <h3>Choose a role</h3>
+                            <div>
+                                <input type="radio" id="etudiant" name="role" value="etudiant">
+                                <label for="etudiant">Student</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="prof" name="role" value="prof">
+                                <label for="prof">Teacher</label>
+                            </div>
+                        </div>
+                    </form>
+                </main>
+                <main class="content2">
+
+                    <label for="email"><h3>What's your e-mail address?</h3></label>
+                    <div id="e-mail">
+                        <input type="email" name="email" placeholder="E-mail address" required>
+                    </div>
+                    <label for="nom-utili"><h3>What is your username?</h3></label>
+                    <div id="e-mail">
+                        <input type="text" name="username" placeholder="Username" required>
+                     </div>
+                        <label for="mdp"><h3>Create a password</h3></label>
+                        <div id="mot_de_passe_container">
+                            <input type="password" id="mot_de_passe" name="mot_de_passe" placeholder="Password" required>
+                            <button id="togglePassword" type="button">
+                                <i id="toggleIcon" class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                        <label for="mdp"><h3>Confirm the password</h3></label>
+                        <div id="confirm_password_container">
+                            <input type="password" id="confirm_mot_de_passe" name="confirm_mot_de_passe" placeholder="Confirm Your Password" required>
+                        </div>
+                        <button class="svt" type="button" id="signupButton">Sign-up</button>
+
+                        <span id="passwordError" class="error">This password is short. Create a longer one with at least 6 characters</span>
+                   </div>
+                    </main>
+                    
+            </div>
+        </div>
+    </div>
+    <script src="../js/page3.js"></script>
+</body>
+</html>

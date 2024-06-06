@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Left container styles */
+.left-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -40px;
+    margin-left: 100px;
+    margin-top:80px;
+    min-height: 80vh;
+    background-image: url('../img/ahlam.gif');
+    background-size: 500px; /* Cover ensures the image covers the entire container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    border-radius: 8px;
+    height: 100%;
+}
+
+
+/* Right container styles */
+.right-container {
+    flex: 2; /* Adjusted to make it larger */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 100%;
+    max-width: 500px; /* Increased max width */
+    text-align: center;
+    margin-right:-100px;
+}
+
+.content h1 {
+    font-size: 24px;
+    color: #408C75;
+    margin-bottom: 30px;
+}
+
+.content h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#e-mail input,
+#mot_de_passe_container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-bottom:15px;
+}
+
+#mot_de_passe_container {
+    position: relative;
+}
+
+#togglePassword {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: -180px;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+#mot_de_passe {
+    padding-right: 30px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for smooth effect */
+}
+
+.svt {
+    background-color: #408C75;
+    color: white;
+}
+
+.svt:hover {
+    background-color: #306354; /* Darker shade on hover */
+}
+
+.ignorer {
+    background-color: #ddd;
+    color: #333;
+}
+
+.ignorer:hover {
+    background-color: #bbb; /* Darker shade on hover */
+}

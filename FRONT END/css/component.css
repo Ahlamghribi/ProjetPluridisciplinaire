@@ -1,0 +1,44 @@
+@import url('./global.css');
+
+.btn {
+  font-family: 'lexend', sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 7px 14px;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button {
+  font-family: 'lexend', sans-serif;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+}
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+}
+.btn-transparent {
+  background-color: transparent;
+}
+.btn-tertiary {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.btn-tertiary:hover {
+  background-color: var(--hover-color);
+}
+.btn-hover-background:hover {
+  background-color: var(--background-color);
+}

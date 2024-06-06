@@ -1,0 +1,200 @@
+/* include variables */
+@import url("../css/global.css");
+/* include container styles */
+@import url("../css/container.css");
+/* inclode component */
+@import url("../css/component.css");
+
+/* body */
+body {
+ background-color: #333;
+  font-family: system-ui, sans-serif;
+  color: var(--text-color);
+  height: 100vh;
+}
+/* Start header */
+header {
+  background-color: var(--background-color-light);
+  box-shadow: 0 3px 10px var(--primary-color);
+  padding: 0.1em 0;
+  margin-bottom: 20px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .left .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .container .left .logo img {
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.breadcrumbs {
+  /* border: 1px solid #cbd2d9; */
+  border-radius: 0.3rem;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.breadcrumbs__item {
+  background: var(--primary-color);
+  color: #fff;
+  text-transform: capitalize;
+  outline: none;
+  padding: 0.75em 0.75em 0.75em 1.25em;
+  position: relative;
+  text-decoration: none;
+  transition: background 0.2s linear;
+}
+
+.breadcrumbs__item:hover:after,
+.breadcrumbs__item:hover {
+  background: #edf1f5;
+  color: #323f4a;
+}
+.breadcrumbs__item:after,
+.breadcrumbs__item:before {
+  background: var(--primary-color);
+  bottom: 0;
+  clip-path: polygon(50% 50%, -50% -50%, 0 100%);
+  content: "";
+  left: 100%;
+  position: absolute;
+  top: 0;
+  transition: background 0.2s linear;
+  width: 1em;
+  z-index: 1;
+}
+
+.breadcrumbs__item:before {
+  background: #cbd2d9;
+  margin-left: 1px;
+}
+
+.breadcrumbs__item:last-child {
+  border-right: none;
+}
+
+.breadcrumbs__item.is-active {
+  background: #edf1f5;
+  color: #333;
+}
+/* End header */
+
+/* Start main */
+main {
+}
+main .container {
+  display: flex;
+  width: 100%;
+  
+}
+
+/* right */
+.right-msg {
+  display: inline-block;
+  vertical-align: top;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  margin-top: 0px;
+  margin-left: -1px;
+  width: 100%;
+  height: 100%;
+}
+
+.main-chat {
+  padding: var(--padding-btn);
+  height: 400px;
+  overflow-y: auto;
+  color: #333;
+  display: flex;
+  justify-content: center; /* Alignement horizontal au centre */
+  align-items: center; /* Alignement vertical au centre */
+}
+
+.head-chat .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left :30px;
+}
+
+.head-chat .info h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-color);
+  text-transform: capitalize;
+  margin-right :60px;
+
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+.footer-appelle {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Pour centrer horizontalement */
+  padding: 20px; /* Ajustez le padding selon vos besoins */
+  margin-right :20px;
+
+ 
+}
+
+
+.footer-appelle .video-call-actions {
+  display: flex;
+  gap: 30px; /* Espacement entre les icônes */
+  margin-top: 50px;
+  margin-right :20px;
+
+}
+
+.footer-appelle .video-action-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right :20px;
+
+}
+
+.footer-appelle  .video-action-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(65, 60, 60); /* Couleur de fond */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-appelle .video-action-icon i {
+  font-size: 24px; /* Taille de l'icône */
+  color: #333; /* Couleur de l'icône */
+}
+
+
+ .video-action-button.active .video-action-icon i::after {
+  content: '/';
+  font-size: 16px;
+  color: rgb(0, 0, 0); /* Couleur du slash */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Microphone activé */
+.mic.active .video-action-icon::before {
+  content: "\f130"; /* Icône microphone */
+}
+
+/* Microphone désactivé (muted) */
+.mic.muted .video-action-icon::before {
+  content: "\f131"; /* Icône microphone désactivé */
+}

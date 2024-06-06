@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <link rel="stylesheet" href="./lib/fontawesome-free-6.5.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="../css/profil2.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="profile">
+        <div class="profile-image">
+          <img src="../img/userr.png" alt="Profile Image"/>
+        </div>
+        <div class="profile-user-settings">
+          <h1 class="profile-user-name">RANIAkichou_</h1>
+          <button id="follow-button" class="following" type="button">Unfollow</button>
+          <button id="message-button" class="message" type="button">Message</button>
+        </div>
+        <div class="profile-stats">
+          <ul>
+            <li><span class="profile-stat-count">164</span> posts</li>
+            <li><span class="profile-stat-count">188</span> followers</li>
+            <li><span class="profile-stat-count">206</span> following</li>
+          </ul>
+        </div>
+        <div class="profile-bio">
+          <p>
+            <span class="profile-real-name">Rania</span> étudiante en ingénieur informatique 2 éme année .
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="gallery">
+        <!-- Publication texte ajoutée -->
+        <div class="gallery-item text-post" tabindex="0">
+          <div class="text-post-content">
+            <h1> une publication texte .</h1>
+          </div>
+          <div class="gallery-item-info">
+            <ul>
+              <li class="gallery-item-likes">
+                <span class="visually-hidden">Likes:</span>
+                <i class="fas fa-heart" aria-hidden="true"></i> 42
+              </li>
+              <li class="gallery-item-comments">
+                <span class="visually-hidden">Comments:</span>
+                <i class="fas fa-comment" aria-hidden="true"></i> 1
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0">
+          <img src="../img/posts/1.jfif" class="gallery-image" alt="Gallery Image" />
+          <div class="gallery-item-type">
+            <span class="visually-hidden">Video</span>
+            <i class="fas fa-video" aria-hidden="true"></i>
+          </div>
+          <div class="gallery-item-info">
+            <ul>
+              <li class="gallery-item-likes">
+                <span class="visually-hidden">Likes:</span>
+                <i class="fas fa-heart" aria-hidden="true"></i> 38
+              </li>
+              <li class="gallery-item-comments">
+                <span class="visually-hidden">Comments:</span>
+                <i class="fas fa-comment" aria-hidden="true"></i> 0
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0">
+          <img src="../img/post3.jpg" class="gallery-image" alt="Gallery Image" />
+          <div class="gallery-item-type">
+            <span class="visually-hidden">Gallery</span>
+            <i class="fas fa-clone" aria-hidden="true"></i>
+          </div>
+          <div class="gallery-item-info">
+            <ul>
+              <li class="gallery-item-likes">
+                <span class="visually-hidden">Likes:</span>
+                <i class="fas fa-heart" aria-hidden="true"></i> 47
+              </li>
+              <li class="gallery-item-comments">
+                <span class="visually-hidden">Comments:</span>
+                <i class="fas fa-comment" aria-hidden="true"></i> 1
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="loader"></div>
+    </div>
+  </main>
+  <script>
+    document.getElementById('follow-button').addEventListener('click', function() {
+      window.location.href = 'Profil2.html';
+    });
+
+    document.getElementById('message-button').addEventListener('click', function() {
+      window.location.href = 'msg.html';
+    });
+  </script>
+  <script src="./lib/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+</body>
+</html>

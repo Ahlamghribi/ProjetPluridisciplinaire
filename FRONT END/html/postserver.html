@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social</title>
+
+  <!-- Start CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./lib/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+<body>
+  <!-- Start Header -->
+  <header>
+    <div class="container">
+      <div class="left">
+        <div id="logo" class="logo" >
+          <a href="">WASSIT</a>
+        </div>
+        <form action="" class="search-bar">
+          <span class="search-icon fa fa-search"></span>
+          <input class="search-input" type="search" placeholder="search">
+        </form>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list nav-list-left">
+          <li><a class="nav-link-left active" href="#"><i class="nav-icon-left fas fa-house-user"></i></a></li>
+          <!-- <li><a class="nav-link-left" href="#"><i class="nav-icon-left fas fa-user-friends"></i></a></li> -->
+          <li><a class="nav-link-left" href="../html/msg.html"><i class="nav-icon-left fab fa-facebook-messenger"></i></a></li>
+          <li><a class="nav-link-left" href="../html/Notification.html"><i class="nav-icon-left fa fa-bell"></i></a></li>
+        </ul>
+        <ul class="nav-list nav-list-right" style="margin-right: -20px;">
+          <li><a class="nav-link-right" href="#"><i class="nav-icon-right fas fa-bars"></i></a></li>
+          <!-- <li><a class="nav-link-right" href="#"><i class="nav-icon-right fab fa-facebook-messenger"></i></a></li>
+          <li><a class="nav-link-right" href="#"><i class="nav-icon-right fa fa-bell"></i></a></li> -->
+          <li><a class=" " id="toggle-menu" onclick="toggleMenu()" ><img class="" src="../img/users/user0.jpg" alt=""></a>
+          <div id="user-menu" class="hidden">
+            <ul>
+              <li><a class="" href="../html/profile.html">Profile</a></li>
+              <li><a class="" href="#">Settings</a></li>
+              <li><a class="" href="#">Log out</a></li>
+            </ul>
+          </div>
+        </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header   -->
+  <!-- Start Main -->
+  <main id="main">
+    <aside class="aside-left">
+      <div class="aside-title" id="aside-title">
+        <img src="../img/avatar.webp" alt="">
+        <h3>Username</h3>
+      </div>
+      <!-- Remove unnecessary <br> tag -->
+      <ul class="aside-list">
+        <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> analyse</a></li>
+        <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> algorithme</a></li>
+        <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> Archi</a></li>
+        <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i>Bdd</a></li>
+          <!-- Move the notification content inside the <li> tag -->
+         
+         
+          
+            <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> Si</a></li>
+
+            <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> Reseau</a></li>
+            <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> Si</a></li>
+            <li><a class="aside-link" href="#"><i class="aside-icon fas fa-book"></i> Se</a></li>
+      </ul>
+    </aside>
+    <!-- Start Section and Article -->
+    <!-- Start Create Post -->
+    <section class="create-post">
+      <article class="create-post-container">
+        <!-- <div class="create-post-header">
+          <h2 class="create-post-title">Create Post</h2>
+        </div> -->
+        <div class="create-post-body">
+          <form action="" class="create-post-form">
+            <textarea class="create-post-textarea" placeholder="What's on your mind ?"></textarea>
+          </form>
+        </div>
+        <div class="create-post-footer">
+          <button class="button btn btn-primary" id="post" style="padding: 8px 32px;">Post</button>
+          <button class="btn btn-transparent btn-hover-background" id="add-media"><i class="fas fa-photo-video"></i>photo /video</button>
+          <button class="btn-transparent btn btn-hover-background" id="add-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+      </article>
+    </section>
+    <!-- End Create Post -->
+    <!--  -->
+   
+    <!-- Start Posts -->
+    <section class="posts">
+      <article class="post">
+        <div class="head-post">
+          <div class="user-info">
+            <img src="../img/users/user0.jpg" alt="" >
+            <h4>Username</h4>
+            <span>10h</span>
+          </div>
+          <div class="options btn-hover-background btn ">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="body-post">
+          <p>Let's study together</p>
+          <img src="../img/posts/post0.png" alt="" >
+        </div>
+        <div class="footer-post">
+          <div class="like">
+            <button class="" type="button"><i class="fas fa-thumbs-up"></i></button>
+            <button class="" type="button"><i class="fas fa-thumbs-down"></i></button>            
+          </div>
+          <div class="comment">
+            <button type="button"><i class="fas fa-comment"></i></button>
+          </div>
+          <div class="share">
+            <button type="button"><i class="fas fa-share"></i></button>
+          </div>
+          <div class="save">
+            <button type="button"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- post 2 -->
+      <article class="post">
+        <div class="head-post">
+          <div class="user-info">
+            <img src="../img/users/user1.jpg" alt="" >
+            <h4>Username</h4>
+            <span>10h</span>
+          </div>
+          <div class="options btn-hover-background btn ">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="body-post">
+          <p>THL EXAM</p>
+          <img src="../img/posts/post1.png" alt="" width="50">
+        </div>
+        <div class="footer-post">
+          <div class="like">
+            <button class="" type="button"><i class="fas fa-thumbs-up"></i></button>
+            <button class="" type="button"><i class="fas fa-thumbs-down"></i></button>            
+          </div>
+          <div class="comment">
+            <button type="button"><i class="fas fa-comment"></i></button>
+          </div>
+          <div class="share">
+            <button type="button"><i class="fas fa-share"></i></button>
+          </div>
+          <div class="save">
+            <button type="button"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+      </article>
+      <!-- post 3 -->
+      <article class="post">
+        <div class="head-post">
+          <div class="user-info">
+            <img src="../img/users/user2.jpg" alt="" width="50">
+            <h4>Username</h4>
+            <span>10h</span>
+          </div>
+          <div class="options btn-hover-background btn ">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="body-post">
+          <p>How's exams !?</p>
+          <img src="../img/posts/post3.jpg" alt="" width="50">
+        </div>
+        <div class="footer-post">
+          <div class="like">
+            <button class="" type="button"><i class="fas fa-thumbs-up"></i></button>
+            <button class="" type="button"><i class="fas fa-thumbs-down"></i></button>            
+          </div>
+          <div class="comment">
+            <button type="button"><i class="fas fa-comment"></i></button>
+          </div>
+          <div class="share">
+            <button type="button"><i class="fas fa-share"></i></button>
+          </div>
+          <div class="save">
+            <button type="button"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- End Posts -->
+    <!-- End Section and Article -->
+  </main>
+  <!-- End Main -->
+  <!-- Start JS -->
+  <script src="./lib/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
