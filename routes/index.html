@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Assignment Notification</title>
+    <style>
+        /* CSS pour le style de l'e-mail */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #2196F3;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: #fff;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer; /* Ajout d'un curseur pointer pour indiquer que le bouton est cliquable */
+        }
+        .footer {
+            background: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        /* Ajouter du style pour le contenu du post */
+        .post-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .posted-by {
+            font-weight: bold;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Notification de nouveau post</h1>
+        </div>
+        <div class="content">
+            <h2 class="post-title">{{ postTitle }}</h2>
+            <p>Publié le {{ postDateTime }} par <span class="posted-by">{{ professorName }}</span></p>
+            <p>{{ postContent }}</p> <!-- Ajouter le contenu du post -->
+            <a href="{{ postLink }}" class="button" id="postButton">Voir les détails</a> <!-- Ajoutez l'id postButton -->
+        </div>
+        <div class="footer">
+            <p>Cet e-mail vous a été envoyé car vous avez indiqué que vous souhaitez recevoir des notifications par e-mail.</p>
+            <p>Si vous ne souhaitez pas recevoir d'e-mails de ce type, vous pouvez vous désabonner ou modifier vos paramètres.</p>
+        </div>
+    </div>
+
+    <script>
+
+         document.getElementById('postButton').addEventListener('click', function() {
+             window.location.href = postLink; // Rediriger vers le lien de post
+        });
+    </script>
+</body>
+</html>

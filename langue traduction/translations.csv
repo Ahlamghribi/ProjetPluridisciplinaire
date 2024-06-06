@@ -1,0 +1,306 @@
+//fichier générer par python
+mot_source,traduction_fr,traduction_ar,traduction_en
+maison,maison,منزل,house
+voiture,voiture,سيارة,car
+chat,chat,قطة,cat
+chien,chien,كلب,dog
+fleur,fleur,زهرة,flower
+soleil,soleil,شمس,sun
+lune,lune,قمر,moon
+mer,mer,بحر,sea
+montagne,montagne,جبل,mountain
+forêt,forêt,غابة,forest
+mot_source,traduction_fr,traduction_ar,traduction_en
+maison,maison,منزل,house
+voiture,voiture,سيارة,car
+chat,chat,قطة,cat
+chien,chien,كلب,dog
+fleur,fleur,زهرة,flower
+soleil,soleil,شمس,sun
+lune,lune,قمر,moon
+mer,mer,بحر,sea
+montagne,montagne,جبل,mountain
+forêt,forêt,غابة,forest
+étudiant,étudiant,طالب,student
+professeur,professeur,أستاذ,teacher
+école,école,مدرسة,school
+université,université,جامعة,university
+classe,classe,صف,class
+cours,cours,درس,lesson
+examen,examen,امتحان,exam
+devoir,devoir,واجب,assignment
+livre,livre,كتاب,book
+connaissance,connaissance,معرفة,knowledge
+apprentissage,apprentissage,تعلم,learning
+compétence,compétence,مهارة,skill
+diplôme,diplôme,شهادة,diploma
+étude,étude,دراسة,study
+note,note,درجة,grade
+savoir,savoir,معرفة,knowledge
+leçon,leçon,درس,lesson
+matière,matière,مادة,subject
+formation,formation,تدريب,training
+éducation,éducation,تعليم,education
+élève,élève,تلميذ,pupil
+bibliothèque,bibliothèque,مكتبة,library
+professeur principal,professeur principal,مدرس رئيسي,head teacher
+biologie,biologie,علم الأحياء,biology
+chimie,chimie,كيمياء,chemistry
+physique,physique,فيزياء,physics
+mathématiques,mathématiques,رياضيات,mathematics
+histoire,histoire,تاريخ,history
+géographie,géographie,جغرافيا,geography
+langue,langue,لغة,language
+littérature,littérature,أدب,literature
+art,art,فن,art
+musique,musique,موسيقى,music
+sport,sport,رياضة,sport
+technologie,technologie,تكنولوجيا,technology
+informatique,informatique,علوم الحاسوب,computer science
+ingénierie,ingénierie,هندسة,engineering
+médecine,médecine,طب,medicine
+dentisterie,dentisterie,طب الأسنان,dentistry
+pharmacie,pharmacie,صيدلة,pharmacy
+psychologie,psychologie,علم النفس,psychology
+économie,économie,اقتصاد,economics
+droit,droit,قانون,law
+commerce,commerce,تجارة,commerce
+administration des affaires,administration des affaires,إدارة الأعمال,business administration
+marketing,marketing,تسويق,marketing
+communication,communication,اتصالات,communication
+finance,finance,تمويل,finance
+comptabilité,comptabilité,محاسبة,accounting
+management,management,إدارة,management
+entrepreneuriat,entrepreneuriat,ريادة الأعمال,entrepreneurship
+innovation,innovation,ابتكار,innovation
+créativité,créativité,إبداع,creativity
+collaboration,collaboration,تعاون,collaboration
+résolution de problèmes,résolution de problèmes,حل المشكلات,problem solving
+esprit critique,esprit critique,تفكير نقدي,critical thinking
+communication efficace,communication efficace,تواصل فعال,effective communication
+travail d'équipe,travail d'équipe,العمل الجماعي,teamwork
+gestion du temps,gestion du temps,إدارة الوقت,time management
+organisation,organisation,تنظيم,organization
+planification,planification,تخطيط,planning
+réalisation des objectifs,réalisation des objectifs,تحقيق الأهداف,goal achievement
+motivation,motivation,تحفيز,motivation
+résilience,résilience,مرونة,resilience
+autonomie,autonomie,استقلالية,independence
+adaptabilité,adaptabilité,تكيف,adaptability
+créativité,créativité,إبداع,creativity
+persévérance,persévérance,مثابرة,perseverance
+flexibilité,flexibilité,مرونة,flexibility
+responsabilité,responsabilité,مسؤولية,responsibility
+éthique,éthique,أخلاقيات,ethics
+intégrité,intégrité,نزاهة,integrity
+discipline,discipline,انضباط,discipline
+respect,respect,احترام,respect
+tolérance,tolérance,تسامح,tolerance
+diversité,diversité,تنوع,diversity
+inclusion,inclusion,شمولية,inclusion
+égalité,égalité,مساواة,equality
+justice,justice,عدالة,justice
+droits de l'homme,droits de l'homme,حقوق الإنسان,human rights
+citoyenneté,citoyenneté,مواطنة,citizenship
+engagement social,engagement social,الالتزام الاجتماعي,social engagement
+service communautaire,service communautaire,خدمة المجتمع,community service
+respect de l'environnement,respect de l'environnement,احترام البيئة,environmental respect
+développement durable,développement durable,تنمية مستدامة,sustainable development
+conscience sociale,conscience sociale,وعي اجتماعي,social awareness
+action sociale,action sociale,عمل اجتماعي,social action
+éducation civique,éducation civique,تربية مدنية,civic education
+égalité des sexes,égalité des sexes,مساواة الجنسين,gender equality
+défense des droits,défense des droits,دفاع عن الحقوق,rights advocacy
+participation démocratique,participation démocratique,مشاركة ديمقراطية,democratic participation
+leadership,leadership,قيادة,leadership
+innovation sociale,innovation sociale,ابتكار اجتماعي,social innovation
+impact social,impact social,تأثير اجتماعي,social impact
+engagement politique,engagement politique,الالتزام السياسي,political engagement
+justice sociale,justice sociale,عدالة اجتماعية,social justice
+équité,équité,المساواة,equity
+solidarité,solidarité,تضامن,solidarity
+paramètres,paramètres,إعدادات,settings
+post,post,منشور,post
+réaction,réaction,تفاعل,reaction
+commentaire,commentaire,تعليق,comment
+enregistrer,enregistrer,حفظ,save
+
+profil,profil,ملف شخصي,profile
+publication,publication,نشرة,publication
+actualité,actualité,أخبار,news
+amis,amis,أصدقاء,friends
+abonnés,abonnés,متابعون,followers
+abonnements,abonnements,متابعات,following
+invitation,invitation,دعوة,invitation
+connexion,connexion,اتصال,connection
+déconnexion,déconnexion,تسجيل الخروج,logout
+notification,notification,إشعار,notification
+paramètres,paramètres,إعدادات,settings
+post,post,منشور,post
+publication,publication,نشرة,publication
+statut,statut,حالة,status
+partage,partage,مشاركة,share
+réaction,réaction,تفاعل,reaction
+commentaire,commentaire,تعليق,comment
+enregistrer,enregistrer,حفظ,save
+j'aime,j'aime,أعجبني,like
+dislike,dislike,لايعجبني pas like
+favori,favori,المفضلة,favorite
+tendance,tendance,اتجاه,trend
+recherche,recherche,بحث,search
+filtrer,filtrer,تصفية,filter
+classer,classer,تصنيف,sort
+catégorie,catégorie,فئة,category
+hashtag,hashtag,هاشتاج,hashtag
+biographie,biographie,سيرة ذاتية,biography
+publication instantanée,publication instantanée,نشر فوري,instant post
+album photo,album photo,ألبوم صور,photo album
+album vidéo,album vidéo,ألبوم فيديو,video album
+story,story,قصة,story
+caméra,caméra,كاميرا,camera
+filtre,filtre,فلتر,filter
+galerie,galerie,معرض الصور,gallery
+éditeur d'images,éditeur d'images,محرر الصور,image editor
+vidéo en direct,vidéo en direct,فيديو مباشر,live video
+événement,événement,حدث,event
+invitation à un événement,invitation à un événement,دعوة لحدث,event invitation
+calendrier,calendrier,تقويم,calendar
+discussion en groupe,discussion en groupe,محادثة جماعية,group chat
+messagerie,messagerie,الرسائل النصية,messaging
+appel vidéo,appel vidéo,مكالمة فيديو,video call
+appel vocal,appel vocal,مكالمة صوتية,voice call
+émoji,émoji,رمز تعبيري,emoji
+sticker,sticker,ملصق,Sticker
+emoji personnalisé,emoji personnalisé,رمز تعبيري مخصص,custom emoji
+mentions,mentions,إشارة,mentions
+tag,tag,وسم,tag
+paramètres de confidentialité,paramètres de confidentialité,إعدادات الخصوصية,privacy settings
+paramètres de sécurité,paramètres de sécurité,إعدادات الأمان,security settings
+contrôle parental,contrôle parental,الرقابة الأبوية,parental control
+paramètres de notification,paramètres de notification,إعدادات الإشعارات,notification settings
+paramètres du compte,paramètres du compte,إعدادات الحساب,account settings
+paramètres de confidentialité,paramètres de confidentialité,إعدادات الخصوصية,privacy settings
+paramètres de sécurité,paramètres de sécurité,إعدادات الأمان,security settings
+contrôle parental,contrôle parental,الرقابة الأبوية,parental control
+paramètres de notification,paramètres de notification,إعدادات الإشعارات,notification settings
+paramètres du compte,paramètres du compte,إعدادات الحساب,account settings
+améliorer le profil,améliorer le profil,تحسين الملف الشخصي,enhance profile
+personnaliser,personnaliser,تخصيص,customize
+modifier le profil,modifier le profil,تعديل الملف الشخصي,edit profile
+supprimer le compte,supprimer le compte,حذف الحساب,delete account
+
+ami virtuel,ami virtuel,صديق افتراضي,virtual friend
+relation,relation,علاقة,relationship
+groupe d'amis,groupe d'amis,مجموعة من الأصدقاء,friends group
+publication sponsorisée,publication sponsorisée,منشور مُموَّل,sponsored post
+publication recommandée,publication recommandée,منشور موصى به,recommended post
+fil d'actualité,fil d'actualité,خط الأحداث,news feed
+algorithme de recommandation,algorithme de recommandation,خوارزمية الاقتراح,recommendation algorithm
+viral,viral,فيروسي,viral
+popularité,popularité,شهرة,popularity
+influenceur,influenceur,مؤثر,influencer
+contenu viral,contenu viral,محتوى فيروسي,viral content
+partage de contenu,partage de contenu,مشاركة المحتوى,content sharing
+intérêt, intérêt,مصلحة,interest
+fil d'actualité personnalisé,fil d'actualité personnalisé,خط الأحداث المخصص,personalized news feed
+flux vidéo,flux vidéo,تيار الفيديو,video stream
+flux audio,flux audio,تيار صوتي,audio stream
+fil public,fil public,خط عام,public feed
+commentaires en direct,commentaires en direct,تعليقات مباشرة,live comments
+partage en direct,partage en direct,مشاركة مباشرة,live sharing
+participation,participation,مشاركة,participation
+événement en direct,événement en direct,حدث مباشر,live event
+modération,modération,إدارة,moderation
+administrateur,administrateur,مسؤول,administrator
+censure,censure,رقابة,censorship
+filtre anti-spam,filtre anti-spam,منع البريد المزعج,spam filter
+interface utilisateur,interface utilisateur,واجهة المستخدم,user interface
+design,désign,تصميم,design
+ergonomie,ergonomie,بيئة المستخدم,user experience
+interaction,interaction,تفاعل,interaction
+notification push,notification push,إشعار بالدفع,push notification
+authentification,authentification,مصادقة,authentication
+autorisation,autorisation,ترخيص,authorization
+journal d'activité,journal d'activité,سجل النشاط,activity log
+flux de données,flux de données,تيار البيانات,data stream
+suivi d'activité,suivi d'activité,تتبع النشاط,activity tracking
+indicateur de performance,indicateur de performance,مؤشر الأداء,performance indicator
+analyse des données,analyse des données,تحليل البيانات,data analysis
+profil public,profil public,ملف شخصي عام,public profile
+biographie publique,biographie publique,سيرة ذاتية عامة,public biography
+partage sécurisé,partage sécurisé,مشاركة آمنة,secure sharing
+identifiant,identifiant,هوية,identifier
+réinitialisation du mot de passe,réinitialisation du mot de passe,إعادة تعيين كلمة المرور,password reset
+notification d'ami,notification d'ami,إشعار بالصديق,friend notification
+notification de message,notification de message,إشعار بالرسالة,message notification
+notification de publication,notification de publication,إشعار بالمنشور,post notification
+notification de réaction,notification de réaction,إشعار بالتفاعل,reaction notification
+notification de commentaire,notification de commentaire,إشعار بالتعليق,comment notification
+notification d'invitation,notification d'invitation,إشعار بالدعوة,invitation notification
+notification de mention,notification de mention,إشعار بالإشارة,mention notification
+notification de tag,notification de tag,إشعار بالوسم,tag notification
+notification de like,notification de like,إشعار بالإعجاب,like notification
+gestionnaire de notifications,gestionnaire de notifications,مدير الإشعارات,notification manager
+confidentialité des données,confidentialité des données,سرية البيانات,data privacy
+sécurité des données,sécurité des données,أمان البيانات,data security
+sauvegarde,sauvegarde,نسخ احتياطي,backup
+restauration des données,restauration des données,استعادة البيانات,data restoration
+contrôle des données,contrôle des données,مراقبة البيانات,data control
+gestion des données,gestion des données,إدارة البيانات,data management
+stockage des données,stockage des données,تخزين البيانات,data storage
+
+publication,publication,منشور,publication
+partage,partage,مشاركة,sharing
+partage d'écran,partage d'écran,مشاركة الشاشة,screen sharing
+vidéoconférence,vidéoconférence,مؤتمر فيديو,video conference
+conversation,conversation,محادثة,conversation
+message,message,رسالة,message
+discussion,discussion,مناقشة,discussion
+chat en groupe,chat en groupe,دردشة جماعية,group chat
+chat privé,chat privé,دردشة خاصة,private chat
+réunion virtuelle,réunion virtuelle,اجتماع افتراضي,virtual meeting
+agenda,agenda,جدول أعمال,agenda
+planification,planification,تخطيط,planning
+événement,événement,حدث,event
+calendrier,calendrier,تقويم,calendar
+invitation,invitation,دعوة,invitation
+confirmation,confirmation,تأكيد,confirmation
+annulation,annulation,إلغاء,cancellation
+statut,statut,حالة,status
+disponibilité,disponibilité,توافر,availability
+hors ligne,hors ligne,غير متصل,offline
+en ligne,en ligne,متصل,online
+indisponible,indisponible,غير متاح,unavailable
+connecté,connecté,متصل,connected
+déconnexion,déconnexion,تسجيل الخروج,logout
+connexion,connexion,تسجيل الدخول,login
+profil,profil,ملف شخصي,profile
+biographie,biographie,سيرة ذاتية,biography
+avatar,avatar,صورة رمزية,avatar
+image de profil,image de profil,صورة الملف الشخصي,profile picture
+informations personnelles,informations personnelles,معلومات شخصية,personal information
+paramètres de confidentialité,paramètres de confidentialité,إعدادات الخصوصية,privacy settings
+paramètres de compte,paramètres de compte,إعدادات الحساب,account settings
+paramètres de notification,paramètres de notification,إعدادات الإشعارات,notification settings
+paramètres de sécurité,paramètres de sécurité,إعدادات الأمان,security settings
+filtre,filtre,تصفية,filter
+tri,tri,ترتيب,sorting
+recherche,recherche,بحث,search
+barre de recherche,barre de recherche,شريط البحث,search bar
+résultats de recherche,résultats de recherche,نتائج البحث,search results
+réseau,réseau,شبكة,network
+suivi,suivi,متابعة,following
+abonné,abonné,متابع,follower
+abonnement,abonnement,اشتراك,subscription
+liste de suivi,liste de suivi,قائمة المتابعة,following list
+liste d'abonnés,liste d'abonnés,قائمة المتابعين,follower list
+notifications,notifications,إشعارات,notifications
+centre de notification,centre de notification,مركز الإشعارات,notification center
+flux d'activité,flux d'activité,تغذية الأخبار,activity feed
+participation à l'événement,participation à l'événement,المشاركة في الحدث,event participation
+participation à la discussion,participation à la discussion,المشاركة في المناقشة,discussion participation
+participation à la réunion,participation à la réunion,المشاركة في الاجتماع,meeting participation
+participation à la publication,participation à la publication,المشاركة في المنشور,post participation
+membre,membre,عضو,member
+adhésion,adhésion,عضوية,membership
+communauté,communauté,مجتمع,community

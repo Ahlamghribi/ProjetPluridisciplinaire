@@ -1,0 +1,17 @@
+{
+  "name": "les-langues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "langue.js",
+  "scripts": {
+    "start": "node langue.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "i18n": "^0.15.1",
+    "mongoose": "^8.3.3"
+  }
+}
