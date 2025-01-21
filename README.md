@@ -56,8 +56,9 @@ Les contributions sont les bienvenues ! Veuillez suivre les étapes ci-dessous p
 5. **Ouvrir une Pull Request**
 
 ## Auteur
-- **Ahlam Ghribi** - [Votre Profil GitHub](https://github.com/Ahlamghribi)
-
-## Remerciements
-- Merci à tous ceux qui ont contribué au développement de ce projet !
+- **Ahlam Ghribi** -Me (https://github.com/Ahlamghribi)
+- **Ouissal Senouci** (https://github.com/ouissalsenouci)
+- **Yasmine Bendjaima** (https://github.com/bendjaimayassamine/)
+- **Chaima Chouchan** (https://github.com/chaimachouchan)
+ 
 
